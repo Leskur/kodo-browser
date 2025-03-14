@@ -55,6 +55,7 @@ interface OthersPreferences {
   language: "zh_CN" | "en_US" | "ja_JP",
 
   externalPathEnabled: boolean,
+  imageThumbnailEnabled: boolean,
   filesItemLazyLoadEnabled: boolean,
   filesItemLoadSize: number,
 
@@ -84,6 +85,7 @@ export const appPreferenceKeys: (keyof AppPreferencesData)[] = [
   "autoUpdateAppEnabled",
   "language",
   "externalPathEnabled",
+  "imageThumbnailEnabled",
   "filesItemLazyLoadEnabled",
   "filesItemLoadSize",
   "contentViewStyle",

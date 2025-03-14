@@ -509,6 +509,10 @@ const dict: Dictionary = {
             label: "调试日志：",
             hint: "是否开启调试日志",
           },
+          enabledImageThumbnail: {
+            label: "图片缩略图：",
+            hint: "在网格视图中显示图片缩略图",
+          },
           enabledLoadFilesOnTouchEnd: {
             label: "文件列表分页加载：",
             hint: "（分页加载更多）",

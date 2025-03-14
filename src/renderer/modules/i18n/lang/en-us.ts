@@ -510,6 +510,10 @@ const dict: Dictionary = {
             label: "Debug:",
             hint: "Enable debug log",
           },
+          enabledImageThumbnail: {
+            label: "Image thumbnail:",
+            hint: "Display image thumbnails in grid view",
+          },
           enabledLoadFilesOnTouchEnd: {
             label: "File list load more on touch end:",
             hint: "(Enable file list load more on touch end)",

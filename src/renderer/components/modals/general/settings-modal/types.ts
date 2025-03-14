@@ -24,6 +24,7 @@ export interface ExternalPathFormData {
 
 export interface OthersFormData {
   enabledDebugLog: boolean,
+  enabledImageThumbnail: boolean,
   enabledLoadFilesOnTouchEnd: boolean,
   loadFilesNumberPerPage: number,
   enabledAutoUpdateApp: boolean,

@@ -509,6 +509,10 @@ const dict: Dictionary = {
                         label: "デバッグログ：",
                         hint: "デバッグログを開くかどうか",
                     },
+                    enabledImageThumbnail: {
+                        label: "画像サムネイル：",
+                        hint: "グリッドビューで画像のサムネイルを表示します",
+                    },
                     enabledLoadFilesOnTouchEnd: {
                         label: "ステップごとのファイルリストのロード：",
                         hint: "（ステップバイステップモードでファイルリストの読み込みを有効にする）",

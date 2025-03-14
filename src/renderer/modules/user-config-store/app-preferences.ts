@@ -37,6 +37,7 @@ interface OthersPreferences {
   language: LangName,
 
   externalPathEnabled: boolean,
+  imageThumbnailEnabled: boolean,
   filesItemLazyLoadEnabled: boolean,
   filesItemLoadSize: number,
 
@@ -69,6 +70,7 @@ const DEFAULT_APP_PREFERENCES_DATA: AppPreferencesData = {
   overwriteDownloadEnabled: true,
 
   externalPathEnabled: false,
+  imageThumbnailEnabled: false,
   filesItemLazyLoadEnabled: true,
   filesItemLoadSize: 100,
 

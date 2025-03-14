@@ -515,6 +515,10 @@ export default interface Dictionary {
             label: string,
             hint: string,
           },
+          enabledImageThumbnail: {
+            label: string,
+            hint: string,
+          },
           enabledLoadFilesOnTouchEnd: {
             label: string,
             hint: string,

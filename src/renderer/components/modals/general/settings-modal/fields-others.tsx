@@ -76,6 +76,18 @@ const FieldsExternalPath: React.FC = () => {
         </Col>
       </Form.Group>
 
+      <Form.Group as={Row} className="mb-3" controlId="enabledImageThumbnail">
+        <Form.Label className="text-end" column sm={5}>
+          {translate("modals.settings.others.form.enabledImageThumbnail.label")}
+        </Form.Label>
+        <Col sm={6} className="d-flex align-items-center">
+          <Form.Switch
+            {...register("imageThumbnailEnabled")}
+            label={translate("modals.settings.others.form.enabledImageThumbnail.hint")}
+          />
+        </Col>
+      </Form.Group>
+
       <Form.Group as={Row} className="mb-3" controlId="enabledLoadFilesOnTouchEnd">
         <Form.Label className="text-end" column sm={5}>
           {translate("modals.settings.others.form.enabledLoadFilesOnTouchEnd.label")}
